@@ -1,0 +1,24 @@
+{
+	"rules":[
+		{
+			"url":"http://my-special-awesome-pokemon-service.com",
+			"reason":"awesome pokemon",
+			"match":[
+				"hit_points==20",
+				"type_two!=word",
+				"special_defense > 10",
+				"generation< 20"
+				]
+		},
+      		{
+			"url":"http://0.0.0.0:8000/receive",
+			"reason":"awesome pokemon",
+			"match":[
+				"hit_points>70",
+				"type_one == Water",
+				"special_defense > 10",
+				"generation< 20"
+				]
+		}
+	]
+}

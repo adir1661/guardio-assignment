@@ -1,0 +1,6 @@
+fastapi
+httpx
+requests
+uvicorn
+protobuf
+pytest
